@@ -1,0 +1,236 @@
+[
+    {
+
+        "service_id": "01",
+        "title": "Story Book Service",
+        "img": "https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/GettyImages-577674005_492115_zfpgiw.jpg",
+        "price": "20.00",
+        "description": "Disney's Animated Storybook (stylized as Disney's Animated StoryBook, and also known as Disney's Story Studio)[1] is a point-and-click adventure interactive storybook video game series based on Walt Disney feature animations and Pixar films that were released throughout the 1990s. They were published by Disney Interactive for personal computers (Microsoft Windows and Apple Macintosh) for children ages four to eight years old.[2] Starting from 1994, most of the entries in the series were developed by Media Station. They have the same plots as their respective films, though abridged due to the limited medium",
+        "facility": [
+            {
+                "name": "",
+                "details": ""
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": ""
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "02",
+        "title": "Science Book Service",
+        "img": "https://cdn.pixabay.com/photo/2016/09/10/17/18/book-1659717__340.jpg",
+        "price": "20.00",
+        "description": "There are many disciplines that are well explained to lay people through science books. A few examples include Carl Sagan on astronomy, Jared Diamond on geography, Stephen Jay Gould and Richard Dawkins on evolutionary biology, David Eagleman on neuroscience, Donald Norman on usability and cognitive psychology, Steven Pinker, Noam Chomsky, and Robert Ornstein on linguistics and cognitive science, Donald Johanson and Robert Ardrey on paleoanthropology, and Desmond Morris on zoology and anthropology, and Fulvio Melia on black holes.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "03",
+        "title": "Accounting Book Service",
+        "img": "https://www.oberlo.com/media/1612639204-image3.jpg",
+        "price": "200.00",
+        "description": "Publicly traded companies typically are subject to rigorous standards. Small and midsized businesses often follow more simplified standards, plus any specific disclosures required by their specific lenders and shareholders. Some firms operate on the cash method of accounting which can often be simple and straight forward. Larger firms most often operate on an accrual basis. Accrual basis is one of the fundamental accounting assumptions and if it is followed by the company while preparing the Financial statements then no further disclosure is required. Accounting standards prescribe in considerable detail what accruals must be made, how the financial statements are to be presented, and what additional disclosures are required.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "04",
+        "title": "Hadis Book Service",
+        "img": "https://www.incimages.com/uploaded_files/image/1920x1080/getty_655998316_2000149920009280219_363765.jpg",
+        "price": "150.00",
+        "description": "Hadith have been called by some as the backbone of Islamic civilization,[6] and for many the authority of hadith as a source for religious law and moral guidance ranks second only to that of the Quran[7] (which Muslims hold to be the word of God revealed to Muhammad). Most Muslims believe that scriptural authority for hadith comes from the Quran, which enjoins Muslims to emulate Muhammad and obey his judgements.While the number of verses pertaining to law in the Quran is relatively few, hadith are considered by many to give direction on everything from details of religious obligations (such as Ghusl or Wudu, ablutions[8] for salat prayer), to the correct forms of salutations[9] and the importance of benevolence to slaves.[10] Thus for many, the great bulk of the rules of Sharia (Islamic law) are derived from hadith, rather than the Quran",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "05",
+        "title": "English Grammer Book Services",
+        "img": "https://images.pexels.com/photos/159711/books-bookstore-book-reading-159711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+        "price": "30.00",
+        "description": "This article describes a generalized, present-day Standard English – a form of speech and writing used in public discourse, including broadcasting, education, entertainment, government, and news, over a range of registers, from formal to informal. Divergences from the grammar described here occur in some historical, social, cultural, and regional varieties of English, although these are more minor than differences in pronunciation and vocabulary.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "06",
+        "title": "Robotics Book Services",
+        "img": "https://st2.depositphotos.com/2769299/7314/i/450/depositphotos_73146765-stock-photo-a-stack-of-books-on.jpg",
+        "price": "20.00",
+        "description": "Almost Human: Making Robots Think is a book written by Lee Gutkind founder of Creative Nonfiction. Gutkind spent six years as a fly on the wall researcher at the Robotics Institute at Carnegie-Mellon University in Pittsburgh. He observed scientists and students working to design, build, and test robots so advanced that they will one day be able to work alongside or, in some cases, even replace humans. Almost Human is an intense portrait of the robotic subculture and the challenging quest for robot autonomy. Almost Human is 330 pages long and is published by W.W. Norton. In May 2007 Gutkind appeared as a guest author on The Daily Show with Jon Stewart to talk about robots, the future, and his book",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "07",
+        "title": "Islamic History Book Services",
+        "img": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3N8ZW58MHx8MHx8&w=1000&q=80",
+        "price": "20.00",
+        "description": "Islam is practised not only from west to east in a line stretching from Morocco to Indonesia and across every country in between, but also in much of Africa and more recently in Europe and America. There are communities of Lebanese Muslims living in Brazil and Gaelic-speaking Pakistanis in north-west Scotland. And Islam is the fastest-growing religion in the world. One in five people on this planet are Muslims, so it seems reasonable to try to learn much more about them",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "08",
+        "title": "Networking Book Servies",
+        "img": "https://img.freepik.com/free-photo/creative-composition-world-book-day_23-2148883765.jpg?w=2000",
+        "price": "20.00",
+        "description": "It is useful, in this case, to compare the processing of a networked book to the standard editorial procedures found in print culture. Both print books and networked books originate from an idea conceived by a senior editor or an author. However, the participatory framework of a networked book is articulated by a designer, and executed by a programmer, before the content is written or assembled, thus creating an open book structure. Paper-based books are turned over to the designer, production artist and printer after the content is finished, resulting in a closed book structure. The networked book is assembled, in whole or in part, by a community of authors according to the thesis imagined by the editor/author and within the space created by the designer and programmer.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    },
+    {
+        
+        "service_id": "09",
+        "title": "Mathmatics Book Servies",
+        "img": "https://www.thechildrensbookreview.com/wp-content/uploads/2010/11/Magic-Book-Featured-Image.jpg",
+        "price": "20.00",
+        "description": "Believed to have been written around the 8th century BCE, this is one of the oldest mathematical texts. It laid the foundations of Indian mathematics and was influential in South Asia and its surrounding regions, and perhaps even Greece. Though this was primarily a geometrical text, it also contained some important algebraic developments, including the earliest list of Pythagorean triples discovered algebraically, geometric solutions of linear equations, the earliest use of quadratic equations of the forms ax2 = c and ax2 + bx = c, and integral solutions of simultaneous Diophantine equations with up to four unknowns.",
+        "facility": [
+            {
+                "name": "Instant Car Services",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "24/7 Quality Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Easy Customer Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            },
+            {
+                "name": "Quality Cost Service",
+                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+            }
+        ]
+    }
+]

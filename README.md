@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Five bullet point Mentioning my Website 
+1. My website has 9 servies
+2. Use for tailwindcss framworks,and daisyui css.
+3. 2 types of login systems i have to implement ,email and password login,Google
+4. The service details route will have two sections.Service section.Review section
+5.Button at the bottom of the content View Details, the route will be private/ protected route. 
+6.Add two extra sections on the home page.
+
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
