@@ -16,6 +16,7 @@ const Register = () => {
         .then(result =>{
           const user = result.user;
           console.log(user);
+          event.target.reset();
         })
         .catch(error =>console.error(error))
 
