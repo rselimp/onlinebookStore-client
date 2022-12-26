@@ -21,9 +21,9 @@ const Services = () => {
 
     
     return (
-        <div className='text-center'>
-            <p className='text-2xl font-bold text-range-500'>Online BookStore Services</p>
-        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4'>
+        <div className='text-center dark:bg-gray-600'>
+            <p className='text-2xl font-bold text-range-500 dark:text-white mb-8'>Online BookStore Services</p>
+        <div className='grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-4 ml-4'>
             {
                 slice.map(service => <ServiceCard key={service._id} service={service} ></ServiceCard>)
             }

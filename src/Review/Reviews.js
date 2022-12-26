@@ -45,7 +45,7 @@ const Reviews = () => {
 
 
     return (
-        <div>
+        <div >
             
 
             <div className="overflow-x-auto">
@@ -54,17 +54,18 @@ const Reviews = () => {
             <thead>
             <tr>
 
-            <th>Customer Name</th>
-            <th>Service</th>
-            <th>Email</th>
-            <th>Text</th>
-            <th></th>
-            <th></th>
+            <th className='dark:bg-gray-500 dark:text-white '>Customer Name</th>
+            <th className='dark:bg-gray-500 dark:text-white'>Service</th>
+            <th className='dark:bg-gray-500 dark:text-white'>Email</th>
+            <th className='dark:bg-gray-500 dark:text-white'>Text</th>
+            <th className='dark:bg-gray-500 dark:text-white '></th>
+            <th className='dark:bg-gray-500 dark:text-white'></th>
          </tr>
             </thead>
-            <tbody>
+            <tbody className=''>
      {
-        reviews.map(review =><ReviewDetails
+        reviews &&
+        reviews?.map(review =><ReviewDetails
              key={review._id}
               review={review}
               handleDelete={handleDelete} 

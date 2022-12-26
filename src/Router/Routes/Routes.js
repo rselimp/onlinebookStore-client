@@ -2,6 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 import Blog from "../../Pages/Blog/Blog";
 import Home from "../../Pages/Home/Home";
+import AddAReview from "../../Pages/Home/Services/AddAReview/AddAReview";
+import AllReview from "../../Pages/Home/Services/AllReview/AllReview";
 import AllServies from "../../Pages/Home/Services/AllServies";
 import CardDetailsView from "../../Pages/Home/Services/CardDetailsView";
 import ServiceCardView from "../../Pages/Home/Services/ServiceCardView";
@@ -48,7 +50,7 @@ const router = createBrowserRouter([
             },
             {
                 path:'/reviews',
-                element:<PrivateRoute><Reviews></Reviews></PrivateRoute>
+                element:<Reviews></Reviews>
             },
             {
                 path: '/update/:id',
@@ -62,6 +64,18 @@ const router = createBrowserRouter([
             {
                 path:'/offerbook',
                 element:<OfferBook></OfferBook>
+            },
+            {
+                path: '/allreview/:id',
+                element:<AllReview></AllReview>,
+                loader: ({params}) => fetch(`https://assign11-crud-onlinebookstore-server.vercel.app/services/${params.id}`)
+                
+            },
+            {
+                path:'/addareview',
+                element:<PrivateRoute><AddAReview></AddAReview></PrivateRoute>,
+                loader: () => fetch('https://assign11-crud-onlinebookstore-server.vercel.app/services/')
+                
             }
             
         ]

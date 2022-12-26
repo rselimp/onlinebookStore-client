@@ -1,6 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react';
 import app from '../../firebase/firebase.config';
-import {createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut} from 'firebase/auth';
+import {createUserWithEmailAndPassword, getAuth, onAuthStateChanged, sendEmailVerification, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile} from 'firebase/auth';
 
 
 //1.context provider with passed children
@@ -16,9 +16,9 @@ const AuthProviders = ({children}) => {
     const[user,setUser] = useState(null);
     const[loading, setLoading] =useState(true);
 
-    const createUser =(email, password) =>{
+    const createUser =(name,email, password) =>{
         setLoading(true)
-        return createUserWithEmailAndPassword(auth,email,password);
+        return createUserWithEmailAndPassword(auth,name,email,password);
     }
 
     const login =(email, password) =>{
@@ -30,9 +30,25 @@ const AuthProviders = ({children}) => {
         return signInWithPopup(auth,provider)
     }
 
+    const githubProviderLogin =provider =>{
+        return signInWithPopup(auth, provider)
+    }
+
+
     const logOut =() =>{
         return signOut(auth)
     }
+
+    const verifyEmail =() =>{
+        return sendEmailVerification(auth.currentUser)
+    }
+
+    const forgotPassword = (email) =>{
+        return sendPasswordResetEmail(auth,email)
+
+    }
+
+   
 
 
     useEffect( () =>{
@@ -54,7 +70,11 @@ const AuthProviders = ({children}) => {
         createUser,
         login,
         logOut,
-        providerLogin
+        providerLogin,
+        githubProviderLogin,
+        verifyEmail,
+        forgotPassword,
+        
     
     }
 

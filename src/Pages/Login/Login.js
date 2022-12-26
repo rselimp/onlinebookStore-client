@@ -1,6 +1,6 @@
-import { GoogleAuthProvider } from 'firebase/auth';
-import React, { useContext } from 'react';
-import { FaGoogle } from 'react-icons/fa';
+import { GithubAuthProvider, GoogleAuthProvider } from 'firebase/auth';
+import React, { useContext, useState } from 'react';
+import { FaGithub, FaGoogle } from 'react-icons/fa';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../context/AuthProvider/AuthProviders';
 import useTitle from '../../hooks/useTitle';
@@ -9,9 +9,11 @@ import useTitle from '../../hooks/useTitle';
 //13.Implement email/password-based authentication.
 
 const Login = () => {
-    const{login,providerLogin} = useContext(AuthContext)
+    const{login,providerLogin,githubProviderLogin,forgotPassword} = useContext(AuthContext)
     const location = useLocation();
     const navigate = useNavigate();
+    const[userEmail, setUserEmail] =useState('');
+
 
     const from = location.state?.from?.pathname || '/';
 
@@ -61,22 +63,58 @@ const Login = () => {
       .then(result =>{
         const user = result.user;
         console.log(user);
+        navigate(from, {replace: true});
       })
       .catch(error =>console.error(error))
     }
 
+    const githubProvider = new GithubAuthProvider();
+
+    const handleGithubSignIn =() =>{
+
+      githubProviderLogin(githubProvider)
+      .then(result =>{
+        const user = result.user;
+        console.log(user);
+        navigate(from, {replace: true});
+      })
+      .catch(error =>console.error(error))
+
+    }
+    const handleEmailBlur =event =>{
+      const email = event.target.value;
+      setUserEmail(email);
+    }
+
+    const handleForgotPassword =() =>{
+      if(!userEmail){
+        alert('Please enter your remail address')
+        return;
+      }
+      forgotPassword(userEmail)
+      .then( () =>{
+        alert('Password reset email sent.Please check your email')
+      })
+      .catch(error  =>{
+        console.error(error);
+      })
+    }
+
+
+
     return (
-        <div className="hero w-full">
-  <div className="hero-content grid md:grid-cols-2 flex-col lg:flex-row">
+        <div className="hero w-full dark:bg-gray-700">
+  <div className="hero-content">
     
-    <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 my-20 py-20">
-    <h1 className="text-5xl text-center font-bold">Login now!</h1>
+    <div className="card flex-shrink-0 shadow-2xl bg-base-100 my-20 py-20 dark:bg-gray-800" style={{width:'450px'}}>
+    
+    <h1 className="text-5xl text-center font-bold dark:text-white">Login now!</h1>
       <form onSubmit={handleLogin} className="card-body">
         <div className="form-control">
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input type="text" name='email' placeholder="email" className="input input-bordered" required />
+          <input onBlur={handleEmailBlur} type="text" name='email' placeholder="email" className="input input-bordered" required />
         </div>
         <div className="form-control">
           <label className="label">
@@ -84,14 +122,17 @@ const Login = () => {
           </label>
           <input type="password" name='password' placeholder="password" className="input input-bordered" required />
         </div>
-        <div className="form-control mt-6">
-          <input className="btn btn-outline btn-accent" type="submit" value="Login" />
+        <div className="form-control mt-4">
+          <input className="btn btn-outline btn-accent dark:text-white" type="submit" value="Login" />
         </div>
+        <p> <button onClick={handleForgotPassword} className='btn btn-ghost btn-sm capitalize'>Forgot password?</button> </p>
+        <p className=' mt-2 dark:text-white'>Don't have an account please <Link className='text-orange-600' to='/register'>Register</Link></p>
       </form>
-    
-      <p className='text-center'>Donot have an Account Please <Link className='text-orange-600 mt-2' to='/register'>Register</Link></p>
+      <div className='ml-8 mb-2'>-
+      <button onClick={handleGoogleSignIn} className='btn btn-outline btn-accent dark:text-white'><span className='text-orange-500' ><FaGoogle></FaGoogle></span><span className='ml-2 capitalize'>Login with Google</span></button>
+      </div>
       <div className='ml-8'>
-      <button onClick={handleGoogleSignIn} className='btn btn-primary'>Google SignIn</button>
+      <button onClick={handleGithubSignIn} className='btn btn-outline btn-accent dark:text-white'><span className='text-orange-500'><FaGithub></FaGithub></span><span className='ml-2 capitalize'>Login with Github</span></button>
       </div>
     </div> 
 

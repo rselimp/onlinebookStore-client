@@ -2,14 +2,15 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div>
+        <div className='dark:bg-gray-700'>
+            <div className='dark:text-white pl-3'>
             <h1 className='text-3xl'>1.Difference between SQL and NoSQL</h1>
             <p>SQL--RELATIONAL DATABASE MANAGEMENT SYSTEM (RDBMS).These databases have fixed or static or predefined schema.
                 These databases are not suited for hierarchical data storage.
                 These databases are best suited for complex queries.Examples: MySQL, PostgreSQL, Oracle, MS-SQL Server etc</p>
             <p>NoSQL--Non-relational or distributed database system.They have dynamic schemaThese databases are best suited for hierarchical data storage.Examples: MongoDB, GraphQL, HBase, Neo4j, Cassandra etc</p>
 
-            <h1 className='text-3xl'>2.What is JWT, and how does it work?L</h1>
+            <h1 className='text-3xl'>2.What is JWT, and how does it work?</h1>
                 <p>JWT, or JSON Web Token, is an open standard used to share security information between two parties — a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
                 JWTs differ from other web tokens in that they contain a set of claims. Claims are used to transmit information between two parties. What these claims are depends on the use case at hand. For example, a claim may assert who issued the token, how long it is valid for, or what permissions the client has been granted.
 
@@ -22,6 +23,7 @@ const Blog = () => {
                 <h1 className='text-3xl'>How does NodeJS handle multiple requests at the same time?</h1>
 
                 <p>NodeJS receives multiple client requests and places them into EventQueue. NodeJS is built with the concept of event-driven architecture. NodeJS has its own EventLoop which is an infinite loop that receives requests and processes them.</p>
+            </div>
 
         </div>
     );

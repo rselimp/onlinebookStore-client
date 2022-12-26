@@ -11,24 +11,29 @@ const ReviewDetails = ({review,handleDelete}) => {
 
 
     return (
-        <tr>
+        <>
         
-        <td>{customer}</td>
-        <td>{serviceName}</td>
-        <td>{email}</td>
-        <td>{message}</td>
-        <th>
+            <tr className='border'>
+        
+        <td className='dark:bg-gray-700 dark:text-white '>{customer}</td>
+        <td className='dark:bg-gray-700 dark:text-white ' >{serviceName}</td>
+        <td className='dark:bg-gray-700 dark:text-white '>{email}</td>
+        <td className='dark:bg-gray-700 dark:text-white '>{message}</td>
+        <th className='dark:bg-gray-700 dark:text-white'>
             {/* <Link to ={`/update/${user._id}`}>
             <button  className='btn btn-warning'>Update</button>
             </Link> */}
             
 
         </th>
-        <th>
-            <button onClick={() =>handleDelete(_id)} className='btn btn-warning'>Delete</button>
+        <th className='dark:bg-gray-700 '>
+            <button onClick={() =>handleDelete(_id)} className='btn dark: text-white btn-outline btn-error dark:text-white rounded-full'>Delete</button>
 
         </th>
       </tr>   
+        
+        </>
+      
     );
 };
 
